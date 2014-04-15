@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
 require "scraperwiki/simple_html_dom.php";
 $html = scraperWiki::scrape("http://www.cs.st-andrews.ac.uk/directory");
 $dom = new simple_html_dom();
